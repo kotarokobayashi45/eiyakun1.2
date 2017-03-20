@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98BFC14F1E7E447F00B9E4B5 /* PickerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BFC14E1E7E447F00B9E4B5 /* PickerKeyboard.swift */; };
+		98BFC1521E7E4AD200B9E4B5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BFC1511E7E4AD200B9E4B5 /* MessageUI.framework */; };
+		98BFC1541E7E4B8500B9E4B5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BFC1531E7E4B8500B9E4B5 /* ResultViewController.swift */; };
 		98DF08441E7A34B600CD6056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF08431E7A34B600CD6056 /* AppDelegate.swift */; };
 		98DF08461E7A34B600CD6056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF08451E7A34B600CD6056 /* ViewController.swift */; };
 		98DF08491E7A34B600CD6056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF08471E7A34B600CD6056 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98BFC14E1E7E447F00B9E4B5 /* PickerKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerKeyboard.swift; sourceTree = "<group>"; };
+		98BFC1511E7E4AD200B9E4B5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		98BFC1531E7E4B8500B9E4B5 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		98DF08401E7A34B600CD6056 /* eiyakun1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eiyakun1.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF08431E7A34B600CD6056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DF08451E7A34B600CD6056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BFC1521E7E4AD200B9E4B5 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98BFC1501E7E4AD200B9E4B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98BFC1511E7E4AD200B9E4B5 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98DF08371E7A34B600CD6056 = {
 			isa = PBXGroup;
 			children = (
 				98DF08421E7A34B600CD6056 /* eiyakun1.2 */,
 				98DF08411E7A34B600CD6056 /* Products */,
+				98BFC1501E7E4AD200B9E4B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +73,8 @@
 				98DF08431E7A34B600CD6056 /* AppDelegate.swift */,
 				98DF08451E7A34B600CD6056 /* ViewController.swift */,
 				98DF08471E7A34B600CD6056 /* Main.storyboard */,
+				98BFC1531E7E4B8500B9E4B5 /* ResultViewController.swift */,
+				98BFC14E1E7E447F00B9E4B5 /* PickerKeyboard.swift */,
 				98DF084A1E7A34B600CD6056 /* Assets.xcassets */,
 				98DF084C1E7A34B600CD6056 /* LaunchScreen.storyboard */,
 				98DF084F1E7A34B600CD6056 /* Info.plist */,
@@ -137,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98DF08461E7A34B600CD6056 /* ViewController.swift in Sources */,
+				98BFC14F1E7E447F00B9E4B5 /* PickerKeyboard.swift in Sources */,
 				98DF08441E7A34B600CD6056 /* AppDelegate.swift in Sources */,
+				98BFC1541E7E4B8500B9E4B5 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				98DF08541E7A34B600CD6056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
