@@ -23,34 +23,34 @@ class ViewController: UIViewController, UITextFieldDelegate, PickerTextFieldDele
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        nanidoTextField.delegate = self
-//        nanidoTextField.pickerTextFieldDelegate = self
-//        nanidoTextField.pickerDataArray = ["難しい", "普通", "易しい"]
-//        
-//        
-//        donyuTextField.pickerDataArray = ["全社基幹システム", "独自の社内システム", "社外BtoC"]
-//        donyuTextField.pickerTextFieldDelegate = self
-//        donyuTextField.delegate = self
+        nanidoTextField.delegate = self
+        nanidoTextField.pickerTextFieldDelegate = self
+        nanidoTextField.pickerDataArray = ["難しい", "普通", "易しい"]
+        
+        
+        donyuTextField.pickerDataArray = ["全社基幹システム", "独自の社内システム", "社外BtoC"]
+        donyuTextField.pickerTextFieldDelegate = self
+        donyuTextField.delegate = self
         
           yuzaTextField.delegate = self
         
           kikanTextField.delegate = self
         
-//        koutikuTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
-//        koutikuTextField.pickerTextFieldDelegate = self
-//        koutikuTextField.delegate = self
-//        
-//        kiboTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
-//        kiboTextField.pickerTextFieldDelegate = self
-//        kiboTextField.delegate = self
-//        
-//        kosutoTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
-//        kosutoTextField.pickerTextFieldDelegate = self
-//        kosutoTextField.delegate = self
-//        
-//        jisyakiboTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
-//        jisyakiboTextField.pickerTextFieldDelegate = self
-//        jisyakiboTextField.delegate = self
+        koutikuTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
+        koutikuTextField.pickerTextFieldDelegate = self
+        koutikuTextField.delegate = self
+        
+        kiboTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
+        kiboTextField.pickerTextFieldDelegate = self
+        kiboTextField.delegate = self
+        
+        kosutoTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
+        kosutoTextField.pickerTextFieldDelegate = self
+        kosutoTextField.delegate = self
+        
+        jisyakiboTextField.pickerDataArray = ["😳", "🙍", "🌼", "🌟"]
+        jisyakiboTextField.pickerTextFieldDelegate = self
+        jisyakiboTextField.delegate = self
     }
     //キーボードの設定用「return」を押した時に起動
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{
